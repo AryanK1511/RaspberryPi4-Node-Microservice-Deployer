@@ -1,0 +1,7 @@
+- name: Create a file on raspberry pi
+  hosts: raspberrypi
+  tasks:
+    - name: Create a file
+      copy:
+        content: "Hello World"
+        dest: ~/Desktop/hello.txt
