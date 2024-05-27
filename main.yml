@@ -2,6 +2,7 @@
   hosts: raspberrypi
   tasks:
     - name: Create a file
-      copy:
+      ansible.builtin.copy:
         content: "Hello World"
         dest: ~/Desktop/hello.txt
+        mode: "0644"

@@ -1,0 +1,53 @@
+# Node.js / Express
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+coverage/
+.DS_Store
+*.log
+
+# Ansible
+*.retry
+*.vault
+# Ignore sensitive files
+secrets.yml
+# Ignore temporary Ansible files
+/tmp/
+# Ignore backup files
+*.bak
+*.swp
+*.tmp
+
+# VSCode
+.vscode/
+.idea/
+
+# System Files
+Thumbs.db
+ehthumbs.db
+*.bak
+*.swp
+*.swo
+*.swp
+*.swo
+*~
+*#
+*.DS_Store
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Python (if you use it for scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
